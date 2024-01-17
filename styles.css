@@ -1,12 +1,15 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif
 }
 
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
+    justify-content: space-around;
+    padding: 50px;
 }
 
 #main {
@@ -17,6 +20,7 @@ body {
 #subtext {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 10px;
 }
 
 .header {
@@ -64,6 +68,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-grow: 0;
 }
 
 .subtext {
@@ -117,10 +122,33 @@ a {
 
 #image {
     height: 150px;
-    width: 500px;
+    width: 300px;
     background-color: gray;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hero-title {
+    width: 300px;
+}
+
+.hero-title button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 5px 16px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.footer button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 800;
 }
